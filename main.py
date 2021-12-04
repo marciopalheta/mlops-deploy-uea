@@ -54,6 +54,7 @@ def show_cpf(cpf):
 # Rota padrão
 @app.route('/')
 def home():
+    print('Executou a rota padrão')
     return 'API de Predição de Crédito'
 
 # Subir a API
